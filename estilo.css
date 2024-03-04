@@ -1,0 +1,816 @@
+.MENUDESPLEGABLE{
+  background-image: url(imagen.jpg);
+  background-size: 500px;
+}
+
+@media  (max-width: 768px) {
+  /* Estilos específicos para pantallas más pequeñas */
+  
+  .opcciones{
+    max-width: 100%;
+  }
+  
+  .producto1{
+    max-width: 100%;
+  }
+  .producto2{
+    max-width: 100%;
+  }
+  .producto3{
+    max-width: 100%;
+  }
+  .producto4{
+    max-width: 100%;
+  }
+  .producto5{
+    max-width: 100%;
+  }
+  .producto6{
+    max-width: 100%;
+  }
+  .producto7{
+    max-width: 100%;
+  }
+  .producto8{
+    max-width: 100%;
+  }
+  .producto9{
+    max-width: 100%;
+  }
+  .producto10{
+    max-width: 100%;
+  }
+  .producto11{
+    max-width: 100%;
+  }
+  .producto12{
+    max-width: 100%;
+  }
+  .producto13{
+    max-width: 100%;
+  }
+  .mapa{
+  max-width: 100%;
+  }
+}
+
+.number{
+  text-decoration: none;
+  color: rgb(21, 138, 17);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+}
+.number:hover{
+  background-color: rgb(0, 153, 255);
+}
+.da{
+  text-align: right;
+}
+.sub{
+  text-align: center;
+  color: white;
+}
+.info{
+  color: rgb(3, 255, 129);
+  text-align: center;
+  font-family: Arial; 
+  font-style: italic;
+  font-size: 10px;
+  font-weight: 900;
+}
+.titulo{
+  text-align: center;
+  color: rgb(0, 253, 169);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.inicio{
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  color: black;
+
+}
+
+.red{
+  text-decoration: none;
+  color: rgb(0, 225, 255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+}
+.red:hover{
+  background-color: black;
+}
+.wh{
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: green;
+}
+.wh:hover{
+  background-color: black;
+}
+.ins{
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: palevioletred;
+}
+.ins:hover{
+  background-color: black;
+}
+.fac{
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: blue;
+}
+.fac:hover{
+  background-color: black;
+}
+
+.opccionesx{
+  background-color: aliceblue;
+  min-height: 100;
+  box-sizing: border-box;
+  list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.opcciones1{
+  list-style: none;
+    display: none;
+    justify-content: space-around;
+}
+.opccionesx li:hover .opcciones1{
+  display: block;
+}
+.opcciones2 {
+  position: absolute;
+  display: none;
+  list-style: none;
+}
+.opccionesx li:hover .opcciones2{
+display: block;
+}
+
+
+
+.opcciones3 {
+  position: absolute;
+  display: none;
+  list-style: none;
+}
+.opccionesx li:hover .opcciones3{
+display: block;
+}
+
+.opcciones {
+  display: grid;
+  grid-template-columns: repeat(3,4fr);
+  text-align: center;
+}
+.titulomenu{
+  position: left;
+  color: white;
+}
+
+.texto {
+  font-size: 50px;
+  background-color: brown;
+  color: black;
+  text-align: center;
+  text-indent: 10px;
+  padding: 1rem;
+}
+.producto1 {
+  height: 180px;
+  
+}
+.producto2{
+  height: 180px;
+}
+.producto3{
+  height: 180px;
+}
+.producto4{
+  height: 150px;
+}
+.producto5{
+  height: 150px;
+}
+.producto6{
+  height: 150px;
+}
+.producto7{
+  height: 200px;
+}
+.producto8{
+  height: 200px;
+}
+.producto9{
+  height: 200px;
+}
+.producto10{
+  height: 180px;
+}
+.producto11{
+  height: 150px;
+}
+.precio11{
+  background-color: aquamarine;
+  font-size: 30px;
+  font-weight: 900;
+  border-radius: 10px;
+}
+.producto12{
+  height: 180px;
+}
+.producto13{
+  height: 150px;
+}
+
+.tenis1{
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: inline;
+  background-color: black;
+  background-size: 12%;
+  font-weight: 600;
+}
+.colab1{
+  color: black  ;
+  font-style: italic;
+  font-size: 15px;
+  display: inline;
+  background-color: cadetblue; 
+  border-radius: 50px;
+  padding: 5px;
+}
+.precio1{
+  font-size: 30px;
+  font-weight: 900;
+  background-color: rgb(25, 236, 17);
+  background-size: auto;
+  border-radius: 10px; 
+  display: inline; 
+}
+.buy1{
+  display: inline;
+  
+  text-decoration: none;
+  background-color: orchid;
+padding: 10px;
+border-radius: 100px;
+}
+
+.buy1:hover{
+  background-color: red;
+}
+.buy1:hover{
+  color: blue;
+}
+
+.tenis2{
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: inline;
+  background-color: black;
+  background-size: 12%;
+  font-weight: 600;
+}
+.colab2{
+  color: black  ;
+  font-style: italic;
+  font-size: 15px;
+  display: inline;
+  background-color: cadetblue; 
+  border-radius: 50px;
+  padding: 5px;
+}
+.precio2{
+  font-size: 30px;
+  font-weight: 900;
+  background-color: rgb(25, 236, 17);
+  background-size: auto;
+  border-radius: 10px; 
+  display: inline; 
+}
+.buy2{
+  display: inline;
+  
+  text-decoration: none;
+  background-color: orchid;
+padding: 10px;
+border-radius: 100px;
+}
+
+.buy2:hover{
+  background-color: red;
+}
+.buy2:hover{
+  color: blue;
+}
+.tenis3{
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: inline;
+  background-color: black;
+  background-size: 12%;
+  font-weight: 600;
+}
+.colab3{
+  color: black  ;
+  font-style: italic;
+  font-size: 15px;
+  display: inline;
+  background-color: cadetblue; 
+  border-radius: 50px;
+  padding: 5px;
+}
+.precio3{
+  font-size: 30px;
+  font-weight: 900;
+  background-color: rgb(25, 236, 17);
+  background-size: auto;
+  border-radius: 10px; 
+  display: inline; 
+}
+.buy3{
+  display: inline;
+  
+  text-decoration: none;
+  background-color: orchid;
+padding: 10px;
+border-radius: 100px;
+}
+
+.buy3:hover{
+  background-color: red;
+}
+.buy3:hover{
+  color: blue;
+}
+.tenis4{
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: inline;
+  background-color: black;
+  background-size: 12%;
+  font-weight: 600;
+}
+.colab4{
+  color: black  ;
+  font-style: italic;
+  font-size: 15px;
+  display: inline;
+  background-color: cadetblue; 
+  border-radius: 50px;
+  padding: 5px;
+}
+.precio4{
+  font-size: 30px;
+  font-weight: 900;
+  background-color: rgb(25, 236, 17);
+  background-size: auto;
+  border-radius: 10px; 
+  display: inline; 
+}
+.buy4{
+  display: inline;
+  
+  text-decoration: none;
+  background-color: orchid;
+padding: 10px;
+border-radius: 100px;
+}
+
+.buy4:hover{
+  background-color: red;
+}
+.buy4:hover{
+  color: blue;
+}
+.tenis5{
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: inline;
+  background-color: black;
+  background-size: 12%;
+  font-weight: 600;
+}
+.colab5{
+  color: black  ;
+  font-style: italic;
+  font-size: 15px;
+  display: inline;
+  background-color: cadetblue; 
+  border-radius: 50px;
+  padding: 5px;
+}
+.precio5{
+  font-size: 30px;
+  font-weight: 900;
+  background-color: rgb(25, 236, 17);
+  background-size: auto;
+  border-radius: 10px; 
+  display: inline; 
+}
+.buy5{
+  display: inline;
+  
+  text-decoration: none;
+  background-color: orchid;
+padding: 10px;
+border-radius: 100px;
+}
+
+.buy5:hover{
+  background-color: red;
+}
+.buy5:hover{
+  color: blue;
+}
+.tenis6{
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: inline;
+  background-color: black;
+  background-size: 12%;
+  font-weight: 600;
+}
+.colab6{
+  color: black  ;
+  font-style: italic;
+  font-size: 15px;
+  display: inline;
+  background-color: cadetblue; 
+  border-radius: 50px;
+  padding: 5px;
+}
+.precio6{
+  font-size: 30px;
+  font-weight: 900;
+  background-color: rgb(25, 236, 17);
+  background-size: auto;
+  border-radius: 10px; 
+  display: inline; 
+}
+.buy6{
+  display: inline;
+  
+  text-decoration: none;
+  background-color: orchid;
+padding: 10px;
+border-radius: 100px;
+}
+
+.buy6:hover{
+  background-color: red;
+}
+.buy6:hover{
+  color: blue;
+}
+.tenis7{
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: inline;
+  background-color: black;
+  background-size: 12%;
+  font-weight: 600;
+}
+.colab7{
+  color: black  ;
+  font-style: italic;
+  font-size: 15px;
+  display: inline;
+  background-color: cadetblue; 
+  border-radius: 50px;
+  padding: 5px;
+}
+.precio7{
+  font-size: 30px;
+  font-weight: 900;
+  background-color: rgb(25, 236, 17);
+  background-size: auto;
+  border-radius: 10px; 
+  display: inline; 
+}
+.buy7{
+  display: inline;
+  
+  text-decoration: none;
+  background-color: orchid;
+padding: 10px;
+border-radius: 100px;
+}
+
+.buy7:hover{
+  background-color: red;
+}
+.buy7:hover{
+  color: blue;
+}
+.tenis8{
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: inline;
+  background-color: black;
+  background-size: 12%;
+  font-weight: 600;
+}
+.colab8{
+  color: black  ;
+  font-style: italic;
+  font-size: 15px;
+  display: inline;
+  background-color: cadetblue; 
+  border-radius: 50px;
+  padding: 5px;
+}
+.precio8{
+  font-size: 30px;
+  font-weight: 900;
+  background-color: rgb(25, 236, 17);
+  background-size: auto;
+  border-radius: 10px; 
+  display: inline; 
+}
+.buy8{
+  display: inline;
+  
+  text-decoration: none;
+  background-color: orchid;
+padding: 10px;
+border-radius: 100px;
+}
+
+.buy8:hover{
+  background-color: red;
+}
+.buy8:hover{
+  color: blue;
+}
+.tenis9{
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: inline;
+  background-color: black;
+  background-size: 12%;
+  font-weight: 600;
+}
+.colab9{
+  color: black  ;
+  font-style: italic;
+  font-size: 15px;
+  display: inline;
+  background-color: cadetblue; 
+  border-radius: 50px;
+  padding: 5px;
+}
+.precio9{
+  font-size: 30px;
+  font-weight: 900;
+  background-color: rgb(25, 236, 17);
+  background-size: auto;
+  border-radius: 10px; 
+  display: inline; 
+}
+.buy9{
+  display: inline;
+  
+  text-decoration: none;
+  background-color: orchid;
+padding: 10px;
+border-radius: 100px;
+}
+
+.buy9:hover{
+  background-color: red;
+}
+.buy9:hover{
+  color: blue;
+}
+.tenis10{
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: inline;
+  background-color: black;
+  background-size: 12%;
+  font-weight: 600;
+}
+.colab10{
+  color: black  ;
+  font-style: italic;
+  font-size: 15px;
+  background-color: cadetblue; 
+  border-radius: 50px;
+  padding: 5px;
+}
+.precio10{
+  font-size: 30px;
+  font-weight: 900;
+  background-color: rgb(25, 236, 17);
+  background-size: auto;
+  border-radius: 10px; 
+  display: inline; 
+}
+.buy10{
+  display: inline;
+  
+  text-decoration: none;
+  background-color: orchid;
+padding: 10px;
+border-radius: 100px;
+}
+
+.buy10:hover{
+  background-color: red;
+}
+.buy10:hover{
+  color: blue;
+}
+.tenis11{
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: inline;
+  background-color: black;
+  padding: 5px;
+  background-size: 12%;
+  font-weight: 600;
+}
+.colab11{
+  color: black  ;
+
+  font-style: italic;
+  font-size: 15px;
+  display: inline;
+  background-color: cadetblue; 
+  border-radius: 50px;
+  padding: 5px;
+}
+.precio11{
+  font-size: 30px;
+  font-weight: 900;
+  background-color: rgb(25, 236, 17);
+  background-size: auto;
+  border-radius: 10px; 
+  display: inline; 
+}
+.buy11{
+  display: inline;
+  
+  text-decoration: none;
+  background-color: orchid;
+padding: 10px;
+border-radius: 100px;
+}
+
+.buy11:hover{
+  background-color: red;
+}
+.buy11:hover{
+  color: blue;
+}
+.tenis12{
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: inline;
+  background-color: black;
+  display: inline;
+  padding: 5px;
+  background-size: 12%;
+  font-weight: 600;
+}
+.colab12{
+  color: rgb(30, 255, 30);
+
+  font-style: italic;
+  font-size: 15px;
+  display: inline;
+  background-color: cadetblue; 
+  border-radius: 50px;
+  padding: 5px;
+}
+.precio12{
+  font-size: 30px;
+  font-weight: 900;
+  background-color: rgb(25, 236, 17);
+  background-size: auto;
+  border-radius: 10px; 
+  display: inline; 
+}
+.buy12{
+  display: inline;
+  
+  text-decoration: none;
+  background-color: orchid;
+padding: 10px;
+border-radius: 100px;
+}
+
+.buy12:hover{
+  background-color: red;
+}
+.buy12:hover{
+  color: blue;
+}
+
+.tenis13{
+  color: rgb(7, 135, 255);
+  font-family: arial;
+  font-size: 20px;
+  display: inline;
+  background-color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+.colab{
+  color: yellow;
+
+  font-style: italic;
+  font-size: 15px;
+  display: inline;
+  background-color: cadetblue; 
+  border-radius: 50px;
+  padding: 5px;
+}
+.link{
+  display: flex;
+  flex-direction: column;
+  background-color: blueviolet;
+  border-radius: 16px;
+  font-size: 30px;
+
+}
+
+.precio13{
+  font-size: 30px;
+  font-weight: 900;
+  display: inline;
+  background-color: rgb(25, 236, 17);
+  background-size: auto;
+  border-radius: 10px; 
+  
+}
+.dd{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color:rgb(250, 0, 0);
+  position: right;
+  text-decoration: none;
+}
+.border{
+  display: inline;
+  background-color: aqua;
+  padding: 5px;
+  border-radius: 100%;
+}
+.border:hover{
+  background-color: red;
+}
+.dd:hover{
+  color: blue;
+}
+
+.piedepagina{
+  background-color: black;
+  color: aqua;
+}
+.in{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(102, 166, 223);
+  font-style: italic;
+}
+.on{
+color: rgb(42, 4, 255);
+text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 20px;
+
+}
+
+.an{
+color: white;
+font-style: italic;
+}
+.en{
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+.un{
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+.dn{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
